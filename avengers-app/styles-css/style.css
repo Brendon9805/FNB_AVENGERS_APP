@@ -1,0 +1,172 @@
+.menu-bar a{
+  font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   background-color: rgb(88, 13, 13);
+   color: rgb(230, 226, 226);
+   padding:5px;
+  
+
+}
+
+html{
+  padding:2px;
+}
+
+ body{
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(245, 242, 242) ;
+
+}
+
+.menu-bar a:hover{
+  color: rgba(0, 255, 255, 0.692);
+  cursor: pointer;
+}
+
+
+
+@keyframes fadein{
+  from{
+    opacity: 0;
+    transform: translateZ(-100px)
+  }
+  to{
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.images-gallery{
+  animation: fadein 3s linear;
+  margin-bottom: 35px;
+
+}
+
+.info, .header, .contact-form, .image,  .bio, legend, .Detailed-info{
+  animation: fadein 1s linear;
+  color: rgb(97, 86, 86);
+  text-align: center;
+
+}
+
+.header{
+  width:100%;
+}
+
+.menu-bar{
+  width: 100%;
+  height: 40px;
+  padding-top: 12px;
+  background-color: rgb(88, 13, 13);
+}
+
+.menu-bar a{
+ font-size: 12px;
+ font-weight: 800px;
+ padding-left: 20px;
+ padding-right: 20px;
+ 
+
+}
+
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(88, 13, 13);
+  color: rgba(97, 86, 86, 0.651);
+  border-radius: 5px;
+  margin-bottom: 35px;
+  padding:20px;
+
+  
+}
+
+
+
+.header-contact, legend{
+  color:rgb(27, 27, 26);
+  text-align: center;
+ 
+}
+
+footer{
+  background-color: rgb(88, 13, 13);
+  color: rgb(97, 86, 86);
+  position:fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  padding:10px;
+  z-index: 99999;
+
+}
+
+
+
+.header-info{
+  text-align: center;
+ 
+}
+
+
+.input-field{
+  padding: 5px;
+}
+
+.information{
+  background-color: rgba(204, 213, 238, 0.219);
+  padding: 5px;
+  backdrop-filter: blur(7px);
+  text-align:start;
+ 
+}
+
+.Detailed-info{
+    background-color: rgba(204, 213, 238, 0.219);
+    color:rgba(0, 0, 0, 0.911);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 10px;
+ 
+}
+
+.icons{
+ float:left;
+ width:1px;
+}
+
+.header{
+ text-align:center;
+ justify-content: center;
+ margin:auto 0;
+ padding-top:4px;
+}
+
+ul, h4{
+  list-style-image: url(../icons/A-logo-avengers.png);
+    animation: fadein 1s linear;
+ 
+}
+
+
+
+hr{
+  color: rgb(231, 226, 226);
+}
+
+
+
+
